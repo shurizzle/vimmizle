@@ -1,6 +1,3 @@
-[submodule "bundle/vinarise"]
-	path = bundle/vinarise
-	url = git://github.com/naruyan/vinarise.git
 [submodule "bundle/delimitMate"]
 	path = bundle/delimitMate
 	url = git://github.com/Raimondi/delimitMate.git
@@ -28,3 +25,12 @@
 [submodule "bundle/vimshell"]
 	path = bundle/vimshell
 	url = git://github.com/Shougo/vimshell.git
+[submodule "bundle/vinarise"]
+	path = bundle/vinarise
+	url = git://github.com/naruyan/vinarise.git
+[submodule "bundle/nerdtree"]
+	path = bundle/nerdtree
+	url = git://github.com/scrooloose/nerdtree.git
+[submodule "bundle/nerdcommenter"]
+	path = bundle/nerdcommenter
+	url = git://github.com/scrooloose/nerdcommenter.git
