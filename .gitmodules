@@ -1,0 +1,30 @@
+[submodule "bundle/vinarise"]
+	path = bundle/vinarise
+	url = git://github.com/naruyan/vinarise.git
+[submodule "bundle/delimitMate"]
+	path = bundle/delimitMate
+	url = git://github.com/Raimondi/delimitMate.git
+[submodule "bundle/gist-vim"]
+	path = bundle/gist-vim
+	url = git://github.com/mattn/gist-vim.git
+[submodule "bundle/numbers.vim"]
+	path = bundle/numbers.vim
+	url = git://github.com/myusuf3/numbers.vim.git
+[submodule "bundle/unite-vim"]
+	path = bundle/unite-vim
+	url = git://github.com/Shougo/unite.vim.git
+[submodule "bundle/vim-powerline"]
+	path = bundle/vim-powerline
+	url = git://github.com/Lokaltog/vim-powerline.git
+[submodule "bundle/vim-ruby"]
+	path = bundle/vim-ruby
+	url = git://github.com/vim-ruby/vim-ruby.git
+[submodule "bundle/vimerl"]
+	path = bundle/vimerl
+	url = git://github.com/jimenezrick/vimerl.git
+[submodule "bundle/vimproc"]
+	path = bundle/vimproc
+	url = git://github.com/Shougo/vimproc.git
+[submodule "bundle/vimshell"]
+	path = bundle/vimshell
+	url = git://github.com/Shougo/vimshell.git
