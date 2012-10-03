@@ -1,5 +1,6 @@
 colo    DarkSky
 
+set nocp
 call pathogen#infect()
 
 let s:cpo_save=&cpo
@@ -110,6 +111,7 @@ autocmd BufWritePre * :%s/\s\+$//e
 autocmd BufReadPost *.pdf silent %!pdftotext -layout -nopgbrk "%" -
 autocmd BufReadPost *.doc silent %!antiword "%" -
 autocmd BufRead,BufNewFile *.vimp set ft=vim
+autocmd BufRead,BufNewFile Emakefile set ft=erlang
 
 if has("autocmd")
   augroup Binary
