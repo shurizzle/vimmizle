@@ -78,7 +78,7 @@ nnoremap <C-x> :Hexmode<CR>
 inoremap <C-x> <Esc>:Hexmode<CR>
 vnoremap <C-x> :<C-U>Hexmode<CR>
 map <S-t> :digraph<CR>
-map \p :!php -l %<CR>
+silent map <Leader>pe :w<CR>:!perl %<CR>
 map \c    :!irb -r %<CR>
 
 map t :tabnew<CR>
