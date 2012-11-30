@@ -112,6 +112,10 @@ autocmd BufReadPost *.pdf silent %!pdftotext -layout -nopgbrk "%" -
 autocmd BufReadPost *.doc silent %!antiword "%" -
 autocmd BufRead,BufNewFile *.vimp set ft=vim
 autocmd BufRead,BufNewFile Emakefile set ft=erlang
+autocmd BufRead,BufNewFile rebar.config set ft=erlang
+autocmd BufRead,BufNewFile *.herml set ft=haml
+autocmd BufRead,BufNewFile *.app.src set ft=erlang
+autocmd BufRead,BufNewFile *.app set ft=erlang
 
 if has("autocmd")
   augroup Binary
