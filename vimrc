@@ -29,6 +29,8 @@ set shiftwidth=2
 set nowrap
 set sidescroll=1
 set tildeop
+set exrc
+set secure
 if version >= 700
   set list listchars=tab:\ ·,trail:×,nbsp:%,eol:·,extends:»,precedes:«
 else
