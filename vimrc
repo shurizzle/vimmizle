@@ -99,6 +99,10 @@ set laststatus=2
 set t_Co=256
 let g:Powerline_symbols='fancy'
 
+"Syntastic
+let g:syntastic_mode_map = { 'mode': 'active',
+                           \ 'passive_filetypes': ['elixir'] }
+
 "print a \t
 map <C-m> :.!echo -e \\t<CR>
 "Copy
