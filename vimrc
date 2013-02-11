@@ -103,6 +103,16 @@ let g:Powerline_symbols='fancy'
 let g:syntastic_mode_map = { 'mode': 'active',
                            \ 'passive_filetypes': ['elixir'] }
 
+"YouCompleteMe
+let g:ycm_allow_changing_updatetime = 1
+let g:ycm_global_ycm_extra_conf     = $HOME . '/.vim/ycm.py'
+let g:ycm_key_invoke_completion     = '<Leader><Leader><Tab>'
+
+let g:ycm_key_select_completion     = '<Tab>'
+let g:ycm_key_previous_completion   = '<Leader><Tab>'
+
+set complete-=preview
+
 "print a \t
 map <C-m> :.!echo -e \\t<CR>
 "Copy
