@@ -114,7 +114,6 @@ let g:ycm_global_ycm_extra_conf     = $HOME . '/.vim/ycm.py'
 let g:ycm_key_invoke_completion     = '<Leader><Leader><Tab>'
 
 let g:ycm_key_select_completion     = '<Tab>'
-let g:ycm_key_previous_completion   = '<Leader><Tab>'
 
 set complete-=preview
 
