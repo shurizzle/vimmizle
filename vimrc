@@ -1,7 +1,9 @@
+runtime bundle/vim-pathogen/autoload/pathogen.vim
+
 colo    DarkSky
 
 set nocp
-call pathogen#infect()
+execute pathogen#infect()
 
 let s:cpo_save=&cpo
 set cpo&vim
@@ -11,6 +13,7 @@ unlet s:cpo_save
 
 set ofu=syntaxcomplete#Complete
 set autoindent
+syntax on
 filetype plugin indent on
 set smartindent
 "set cindent
