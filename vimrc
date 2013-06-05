@@ -1,9 +1,13 @@
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 
 colo    DarkSky
-
+let g:android_sdk_path = '/opt/android-sdk'
 set nocp
+filetype off
+"call pathogen#incubate()
 execute pathogen#infect()
+filetype on
+filetype plugin indent on
 
 let s:cpo_save=&cpo
 set cpo&vim
@@ -14,7 +18,6 @@ unlet s:cpo_save
 set ofu=syntaxcomplete#Complete
 set autoindent
 syntax on
-filetype plugin indent on
 set smartindent
 "set cindent
 set cmdheight=1
@@ -50,6 +53,8 @@ set nu
 set fdm=marker
 set statusline=%F%m%r%h%w\ [Type:\ %Y]\ [Lines:\ %L\ @\ %p%%\ {%l;%v}]
 set laststatus=2
+
+let g:netrw_http_cmd = "wget -qO"
 
 command -bar Hexmode call ToggleHex()
 function ToggleHex()
@@ -119,6 +124,11 @@ let g:ycm_key_invoke_completion     = '<Leader><Leader><Tab>'
 let g:ycm_key_select_completion     = '<Tab>'
 
 set complete-=preview
+
+"android-vim
+set tags+=/home/shura/.vim/tags
+autocmd Filetype java setlocal omnifunc=javacomplete#Complete
+let g:SuperTabDefaultCompletionType = 'context'
 
 "print a \t
 map <C-m> :.!echo -e \\t<CR>

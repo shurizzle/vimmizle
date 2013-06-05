@@ -55,3 +55,24 @@
 [submodule "bundle/vim-pathogen"]
 	path = bundle/vim-pathogen
 	url = https://github.com/tpope/vim-pathogen
+[submodule "bundle/vim-rfc"]
+	path = bundle/vim-rfc
+	url = git://github.com/mhinz/vim-rfc.git
+[submodule "bundle/supertab"]
+	path = bundle/supertab
+	url = git://github.com/ervandew/supertab.git
+[submodule "bundle/snipmate.vim"]
+	path = bundle/snipmate.vim
+	url = git://github.com/msanders/snipmate.vim.git
+[submodule "bundle/javacomplete"]
+	path = bundle/javacomplete
+	url = git://github.com/vim-scripts/javacomplete.git
+[submodule "bundle/vim-adb-logcat"]
+	path = bundle/vim-adb-logcat
+	url = git://github.com/vim-android/vim-adb-logcat.git
+[submodule "bundle/vim-compiler-android"]
+	path = bundle/vim-compiler-android
+	url = git://github.com/vim-android/vim-compiler-android.git
+[submodule "bundle/vim-android"]
+	path = bundle/vim-android
+	url = git@github.com:shurizzle/vim-android.git
