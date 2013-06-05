@@ -58,9 +58,6 @@
 [submodule "bundle/vim-rfc"]
 	path = bundle/vim-rfc
 	url = git://github.com/mhinz/vim-rfc.git
-[submodule "bundle/supertab"]
-	path = bundle/supertab
-	url = git://github.com/ervandew/supertab.git
 [submodule "bundle/snipmate.vim"]
 	path = bundle/snipmate.vim
 	url = git://github.com/msanders/snipmate.vim.git
