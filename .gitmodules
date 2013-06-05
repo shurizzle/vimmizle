@@ -70,9 +70,6 @@
 [submodule "bundle/vim-adb-logcat"]
 	path = bundle/vim-adb-logcat
 	url = git://github.com/vim-android/vim-adb-logcat.git
-[submodule "bundle/vim-compiler-android"]
-	path = bundle/vim-compiler-android
-	url = git://github.com/vim-android/vim-compiler-android.git
 [submodule "bundle/vim-android"]
 	path = bundle/vim-android
 	url = git@github.com:shurizzle/vim-android.git
