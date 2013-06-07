@@ -69,7 +69,7 @@
 	url = git://github.com/vim-android/vim-adb-logcat.git
 [submodule "bundle/vim-android"]
 	path = bundle/vim-android
-	url = git@github.com:shurizzle/vim-android.git
+	url = git://github.com/hsanson/vim-android.git
 [submodule "bundle/tabular"]
 	path = bundle/tabular
 	url = git://github.com/godlygeek/tabular.git
