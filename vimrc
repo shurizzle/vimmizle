@@ -101,11 +101,22 @@ if $VIM_NERDTREE != '' && $VIM_NERDTREE != '0' && $VIM_NERDTREE != 'false'
   au VimEnter * :NERDTreeToggle
 endif
 
-"Powerline
+"Lightline
+if !has('gui_running')
+  set t_Co=256
+endif
 set nocompatible
 set laststatus=2
-set t_Co=256
-let g:Powerline_symbols='fancy'
+
+let g:lightline = {
+      \ 'colorscheme': 'wombat',
+      \ 'component': {
+      \   'readonly': '%{&readonly?"⭤":""}'
+      \ },
+      \ 'separator': { 'left': '⮀', 'right': '⮂' },
+      \ 'subseparator': { 'left': '⮁', 'right': '⮃' }
+      \ }
+
 
 "Syntastic
 let g:syntastic_c_checker           = "clang"
